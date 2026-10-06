@@ -14,14 +14,20 @@ int main()
         "five", "six", "seven", "eight", "nine"
     };
 
-    for (int i = a; i <= b; i++) {
-        if (i >= 1 && i <= 9) {
+    for (int i = a; i <= b; i++)
+     {
+        if (i >= 1 && i <= 9) 
+        {
             printf("%s\n", words[i]);
-        } else if (i % 2 == 0) {
+        } 
+        else if (i % 2 == 0)
+        {
             printf("even\n");
-        } else {
+        } 
+        else
+         {
             printf("odd\n");
-        }
+         }
     }
 
     return 0;
